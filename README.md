@@ -13,10 +13,10 @@ pip install selenium
 Script Run
 Import project on Visual Studio Code
 Modify below line at driver.py
- chrome_options.add_argument("--user-data-dir=D:/Learning/bot/data/"+self.dataLoc.get(ws))
+> chrome_options.add_argument("--user-data-dir=D:/Learning/bot/data/"+self.dataLoc.get(ws))
 Modify D:/Learning/bot/data with your path where you want to save your Chrome data.
 Modify product url in amazon.py or shopatsc.py
-    url = 'https://www.amazon.in/dp/B08FVRQ7BZ/?colid=25Y6XQ3N6F5E2&coliid=I1YZ4JREIZ7BKY&ref_=wl_qv_pab' 
+ >   url = 'https://www.amazon.in/dp/B08FVRQ7BZ/?colid=25Y6XQ3N6F5E2&coliid=I1YZ4JREIZ7BKY&ref_=wl_qv_pab' 
 
 replace this with your item which you want to purchase.
 
